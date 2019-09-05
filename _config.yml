@@ -1,0 +1,9 @@
+# See https://jekyllrb.com/docs/configuration/default/
+
+# Handling Reading
+exclude:
+  - CNAME
+
+# Outputting
+permalink: /:year-:month-:day-:title/
+timezone: "Europe/Amsterdam"
