@@ -1,0 +1,25 @@
+---
+layout: default
+---
+
+<!-- Main -->
+  <section id="main" class="wrapper">
+    <div class="inner">
+      <header class="major">
+        <h2>{{ page.title }}</h2>
+        <p>{{ page.tagline }}</p>
+      </header>
+
+      <!-- Content -->
+        <div class="content">
+
+          {% if page.image %}
+            <a href="#" class="image fit"><img src="{{ site.baseurl }}{{ page.image }}" alt="" /></a>
+          {% endif %}
+
+          {{ content }}
+
+        </div>
+
+    </div>
+  </section>

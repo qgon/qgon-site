@@ -1,9 +1,28 @@
-# See https://jekyllrb.com/docs/configuration/default/
+# Site settings
+title: Qgon
+baseurl: ""
+url: "http://www.qgon.nl"
+timezone: "Europe/Amsterdam"
 
-# Handling Reading
+# Exclude
 exclude:
   - CNAME
 
-# Outputting
-permalink: /:year-:month-:day-:title/
-timezone: "Europe/Amsterdam"
+# Plugins
+plugins: ["jekyll-paginate"]
+
+# Build settings
+markdown: kramdown
+sass:
+  sass_dir: assets/sass
+
+# Pagination
+paginate: 4
+paginate_path: "/blog/page:num/"
+
+# Google
+google:
+  analytics:
+    tracking-id: UA-148590782-1
+  maps:
+    api-key: AIzaSyCztmPOJhwXX9FWJOOFhpiKaSCYlYYJybw

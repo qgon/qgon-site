@@ -1,21 +1,83 @@
 ---
+layout: default
+body_class: landing
+header_class: alt
 ---
-<!DOCTYPE html>
-<html>
-  <head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-148590782-1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'UA-148590782-1');
-    </script>
-    <meta charset="UTF-8">
-    <title>Qgon</title>
-    <link rel="icon" type="image/png" href="{{ "/favicon.png" | absolute_url }}">
-  </head>
-  <body style="font-family: Courier New">
-    Qgon
-  </body>
-</html>
+
+{% include layout/banner.html  %}
+
+<!-- One -->
+	<section id="one" class="wrapper">
+		<div class="inner">
+			<ul class="features">
+				<li>
+					<h3 class="icon style1 solid fa-bullseye">Services</h3>
+					<p>Software development, architecture, design, consultancy, training, fixed-price projects,
+					integration software, web applications, webshops, websites.</p>
+				</li>
+				<li>
+					<h3 class="icon style2 solid fa-rocket">Technologies and skills</h3>
+					<p><strong>Languages</strong>: Java, Kotlin, Groovy, HTML, CSS, JavaScript, TypeScript, Python.<br />
+					<strong>Application frameworks</strong>: Spring, Spring Boot, Micronaut, Grails, Express.<br />
+					<strong>Architectural styles</strong>: REST, GraphQL, Messaging, Microservices.<br />
+					<strong>Build tools</strong>: Gradle, Maven.<br />
+					<strong>Cloud</strong>: Amazon Web Services, Google Cloud, Microsoft Azure, Heroku.<br />
+					<strong>Database</strong>: SQL, JDBC, JPA, jOOQ, Hibernate, GORM.<br />
+					<strong>Other libraries</strong>: Jackson, JUnit, Mockito, Spock, MapStruct, RiveScript.<br />
+					<strong>Other applications</strong>: IntelliJ IDEA, Eclipse, Visual Studio Code, Git, Jira.</p>
+				</li>
+				<li>
+					<h3 class="icon style3 solid fa-user">Personal skills</h3>
+					<p>Can-do mentality, result driven, hard working, communicative, social, coaching team members.</p>
+				</li>
+			</ul>
+		</div>
+	</section>
+
+<!-- Two -->
+	<section id="two" class="wrapper cta">
+		<div class="inner">
+			<header>
+				<h2>&nbsp;</h2>
+			</header>
+			<p>&nbsp;</p>
+		</div>
+	</section>
+
+<!-- Three -->
+	<section id="three" class="wrapper">
+		<div class="inner">
+			<header class="major">
+				<h2>Technologies</h2>
+				<p>A selection of technologies I'm passionate about and which I used in projects</p>
+			</header>
+			<div class="box alt">
+	      <div class="row gtr-uniform gtr-50">
+          <div class="col-3 col-6-small">
+            <span class="image fit"><img src="{{ site.baseurl }}/images/logo-java.jpg" alt="Java"></span>
+          </div>
+          <div class="col-3 col-6-small">
+            <span class="image fit"><img src="{{ site.baseurl }}/images/logo-kotlin.jpg" alt="Kotlin"></span>
+          </div>
+          <div class="col-3 col-6-small">
+            <span class="image fit"><img src="{{ site.baseurl }}/images/logo-spring.jpg" alt="Spring"></span>
+          </div>
+          <div class="col-3 col-6-small">
+            <span class="image fit"><img src="{{ site.baseurl }}/images/logo-micronaut.jpg" alt="Micronaut"></span>
+          </div>
+          <div class="col-3 col-6-small">
+            <span class="image fit"><img src="{{ site.baseurl }}/images/logo-graphql.jpg" alt="GraphQL"></span>
+          </div>
+					<div class="col-3 col-6-small">
+            <span class="image fit"><img src="{{ site.baseurl }}/images/logo-openapi.jpg" alt="OpenAPI"></span>
+          </div>
+					<div class="col-3 col-6-small">
+            <span class="image fit"><img src="{{ site.baseurl }}/images/logo-docker.jpg" alt="Docker"></span>
+          </div>
+					<div class="col-3 col-6-small">
+            <span class="image fit"><img src="{{ site.baseurl }}/images/logo-aws-azure-google-cloud.jpg" alt="AWS, Azure, Google Cloud"></span>
+          </div>
+	      </div>
+			</div>
+		</div>
+	</section>
