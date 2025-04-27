@@ -8,23 +8,7 @@
 		<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css" />
 		{% include google_analytics.html %}
 	</head>
-	<body class="{{ page.body_class }} is-preload">
-
-		{% include layout/header.html class=page.header_class %}
-
+	<body>
 		{{ content }}
-
-		{% include layout/footer.html %}
-
-		<!-- Scripts -->
-			<script src="{{ site.baseurl }}/assets/js/jquery.min.js"></script>
-			<script src="{{ site.baseurl }}/assets/js/jquery.dropotron.min.js"></script>
-			<script src="{{ site.baseurl }}/assets/js/jquery.scrollex.min.js"></script>
-			<script src="{{ site.baseurl }}/assets/js/jquery.scrolly.min.js"></script>
-			<script src="{{ site.baseurl }}/assets/js/browser.min.js"></script>
-			<script src="{{ site.baseurl }}/assets/js/breakpoints.min.js"></script>
-			<script src="{{ site.baseurl }}/assets/js/util.js"></script>
-			<script src="{{ site.baseurl }}/assets/js/main.js"></script>
-
 	</body>
 </html>
